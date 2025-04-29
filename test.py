@@ -2,7 +2,7 @@ import os
 import requests
 from sklearn.metrics import accuracy_score
 
-API_URL = "http://localhost:8000/predict"
+API_URL = "https://cancer-model-service.onrender.com/predict"
 TEST_DIR = "./test_images"
 
 # 👇 Map filenames to their true labels
